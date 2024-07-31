@@ -8,7 +8,7 @@ Minha propria versão do jogo Snack. Feito em React.js, Typescript, Jquery e Sas
   - Chrome ou Firefox (atualizados)
 
  Na pasta raiz do projeto rode:
- `npm start`
+ `npm install` e depois de instalado as dependências, rode: `npm start`
 
  ## Jogabilidade
 
