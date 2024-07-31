@@ -1,0 +1,52 @@
+@use "sass:math";
+
+$squareSize: min(100vw, 100vh);
+$snackPartSize: calc(2 * (#{$squareSize})/100);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    background: none;
+    border: none;
+}
+
+html, body { margin:0; padding:0; overflow:hidden }
+svg { position:fixed; top:0; left:0; z-index: 3;}
+
+body{
+    margin:0;
+}
+
+.snack{
+    z-index: 2;
+    background-color: red;
+    width: $snackPartSize;
+    height: $snackPartSize;
+    position: absolute;
+}
+
+.apple{
+    -index: 2;
+    background-color: yellow;
+    width: $snackPartSize;
+    height: $snackPartSize;
+    position: absolute;
+}
+
+.gameBoard{
+    z-index: 1;
+    width: $squareSize;
+    height: $squareSize;
+    background-color: green;
+}
+
+.gameOver{
+    z-index: 1;
+    width: $squareSize;
+    height: $squareSize;
+    background-color: green;
+    display: grid;
+    place-items: center;
+}
