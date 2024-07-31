@@ -25,3 +25,7 @@ Minha propria versão do jogo Snack. Feito em React.js, Typescript, jQuery e Sas
 ## Autor
 
 ### Kevin Willian Dos Santos
+
+#### Dica do autor
+
+Jogue pelo celular, alem de funcionar perfeitamente pela responsividade do código, é mais divertido!
