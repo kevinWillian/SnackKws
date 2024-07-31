@@ -16,7 +16,7 @@ Minha propria versão do jogo Snack. Feito em React.js, Typescript, Jquery e Sas
   - O triângulo superior faz a cobra ir para cima;
   - O triângulo inferior faz a cobra ir para baixo;
   - O triângulo esquerdo faz a cobra ir para a esquerda;
-  - O triângulo direito faz a cobra ir para a direitao
+  - O triângulo direito faz a cobra ir para a direita
   - **Não é permitido** ir para o movimento oposto ao seu (o que causaria derrota!);
   - A cada maçã dourada comida, a cobra aumenta 4 quadrados de tamanho e 0.4x sua velocidade;
   - Se a cobra enconstar nela mesma acontece a derrota!;
