@@ -145,7 +145,7 @@ function Game(){
       }
       case directionKey.Down: {
         let nextSnackCords = snackCords.slice();
-        if((nextSnackCords[0][1] + snackPartSize) > squareSize){
+        if((nextSnackCords[0][1] + 2*snackPartSize) > squareSize){
           nextSnackCords[0] = [nextSnackCords[0][0], 0]
         }else{
           nextSnackCords[0] = [nextSnackCords[0][0], nextSnackCords[0][1] + snackPartSize]
@@ -184,16 +184,16 @@ function Game(){
   }
 
   function OnClickKey(_direction : directionKey){
-    if(_direction == directionKey.Up && direction == directionKey.Down){
+    if(_direction === directionKey.Up && direction === directionKey.Down){
       return;
     }
-    if(_direction == directionKey.Left && direction == directionKey.Rigth){
+    if(_direction === directionKey.Left && direction === directionKey.Rigth){
       return;
     }
-    if(_direction == directionKey.Down && direction == directionKey.Up){
+    if(_direction === directionKey.Down && direction === directionKey.Up){
       return;
     }
-    if(_direction == directionKey.Rigth && direction == directionKey.Left){
+    if(_direction === directionKey.Rigth && direction === directionKey.Left){
       return;
     }
     setDirection(_direction);
