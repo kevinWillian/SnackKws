@@ -4,7 +4,7 @@ Minha propria versão do jogo Snack. Feito em React.js, Typescript, jQuery e Sas
 ## Instalação
 
 ### Requisitos
-  - Npm > 10.8.1
+  - Npm >= 10.8.1
   - Chrome ou Firefox (atualizados)
 
  Na pasta raiz do projeto rode:
