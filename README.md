@@ -1,5 +1,5 @@
 # SnackKws
-Minha propria versão do jogo Snack. Feito em React.js, Typescript, Jquery e Sass.
+Minha propria versão do jogo Snack. Feito em React.js, Typescript, jQuery e Sass.
 
 ## Instalação
 
